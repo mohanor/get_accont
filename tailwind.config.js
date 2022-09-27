@@ -5,11 +5,10 @@ module.exports = {
     extend: {
       colors:{
         darkgray: "#4F5D75"
+      },
+      boxShadow : {
+        '3xl' :'0px 0px 4px #474b4b',
       }
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
-  
 }

@@ -14,11 +14,8 @@ const Content = () => {
                 <input className="border w-2/3 max-w-md	py-2 text-sm rounded-md pl-10 focus:outline-none" placeholder="Search" />
             </div>
             <div className='mt-12'>
-                <MediaItem img='/logos/facebook.png'/>
-                <MediaItem img='/logos/facebook.png'/>
-                <MediaItem img='/logos/facebook.png'/>
-                <MediaItem img='/logos/facebook.png'/>
-                <MediaItem img='/logos/facebook.png'/>
+                <MediaItem img='/logos/facebook.png' lk="12354"/>
+                <MediaItem img='/logos/facebook.png' lk="mohammed"/>
             </div>
         </div>
     )

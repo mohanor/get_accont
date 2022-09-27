@@ -2,7 +2,6 @@
 import Menu from "./Menu"
 import CountUsers from "./CountUsers";
 import Content from './Content'
-import 'flowbite';
 
 const Main = () => {
     return (
