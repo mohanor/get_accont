@@ -1,12 +1,12 @@
-import Left from './Component/Login/Left'
-import Right from './Component/Login/Right';
+import React from "react";
+
+import Login from './Component/Login/Login'
 
 function App() {
   return (
-    <div className="flex bg-red-500 h-screen overflow-hidden">
-      <Left />
-      <Right />
-    </div>
+    <>
+      <Login />
+    </>
   );
 }
 
