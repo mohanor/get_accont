@@ -6,9 +6,7 @@ import Content from './Content'
 const Main = () => {
     return (
         <>
-            <menu className="max-w-7xl m-auto">
-                <Menu />
-            </menu>
+            <Menu />
             <main className="px-5 max-w-7xl	 m-auto">
                 <CountUsers />
                 <Content />

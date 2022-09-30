@@ -17,15 +17,15 @@ const Menu = () => {
     }
 
     return (
-        <menu className='h-[80px] py-5 px-8 relative'>
+        <menu className='max-w-7xl m-auto h-[80px] py-5 px-8 relative'>
             <div className='flex justify-between  items-center  h-full'>
                 <div className='h-[50px]'>
                     <img src={logo} className='h-full'/>
                 </div>
                 <div className='flex items-center justify-around w-[250px]'>
-                    <img src={piggy} />
+                    <img src={piggy} className='h-[28px]' />
                     <span className='text-[#EF8354] bold'>mjalloul</span>
-                    <img src={avatar} className='h-full' />
+                    <img src={avatar} className='h-[50px]' />
                     <div>
                         <button className='delay-100' onClick={openMenu}>
                             <img src={down} />

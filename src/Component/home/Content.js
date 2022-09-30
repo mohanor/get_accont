@@ -1,8 +1,27 @@
 
 import MediaItem from "./MediaItem";
 
-
 const Content = () => {
+
+    const media = [
+        {
+            img : '/logos/facebook.png',
+            name: 'facebook',
+            lk : 'facebook link'
+        },
+        {
+            img : '/logos/tw.png',
+            name: 'twiter',
+            lk : 'twtr line'
+        },
+        {
+            img : '/logos/ff.png',
+            name: 'free fire',
+            lk : 'free fire link'
+        }
+    ]
+
+
     return (
         <div className="">
             <div className="relative text-gray-600 focus-within:text-gray-400">
@@ -14,8 +33,11 @@ const Content = () => {
                 <input className="border w-2/3 max-w-md	py-2 text-sm rounded-md pl-10 focus:outline-none" placeholder="Search" />
             </div>
             <div className='mt-12'>
-                <MediaItem img='/logos/facebook.png' lk="12354"/>
-                <MediaItem img='/logos/facebook.png' lk="mohammed"/>
+                {
+                    media.map(
+                        item => <MediaItem {...item}/>
+                    )
+                }
             </div>
         </div>
     )
